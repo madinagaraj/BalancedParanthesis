@@ -23,8 +23,7 @@ import java.util.*;
 
             // Base case.
             // If the string is balanced then all the opening brackets had been popped and stack
-            // should be empty after string
-            // is traversed completely.
+            // should be empty after string is traversed completely.
             if (ind == s.length()) {
                 if (ele.size() == 0) {
                     return 1;
